@@ -1,3 +1,6 @@
-from django.shortcuts import render
+from rest_framework import permissions, viewsets, status
 
-# Create your views here.
+
+class ProfileViewset(viewsets.ModelViewSet):
+    pass
+
